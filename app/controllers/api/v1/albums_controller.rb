@@ -1,4 +1,4 @@
-class AlbumsController < ApplicationController
+class Api::V1::AlbumsController < ApplicationController
   before_action :set_album, only: %i[ show update destroy ]
 
   # GET /albums
